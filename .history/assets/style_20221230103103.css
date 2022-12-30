@@ -1,0 +1,52 @@
+/* simple reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* general styles */
+.background {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+/* project styles */
+
+.background {
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.game {
+    background-color: white;
+    min-width: 35em;
+    min-height: 40em;
+}
+
+.title {
+    font-size: 50px;
+    color: white;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+
+.gameboard {
+    display: grid;
+    grid-column: span 3;
+}
+
+.board-section {
+    display: grid;
+    grid-column: span 3;
+}
+
+.number {
+    width: 3em;
+    height: 3.5em;
+}

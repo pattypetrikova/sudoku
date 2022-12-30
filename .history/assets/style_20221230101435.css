@@ -1,0 +1,27 @@
+/* simple reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* general styles */
+.game {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+/* project styles */
+
+.background {
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+
+.game {
+    display: ;
+}
